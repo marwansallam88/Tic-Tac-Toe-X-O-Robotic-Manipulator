@@ -1,9 +1,7 @@
-Description:
+# Tic-Tac-Toe (X-O) Robotic Manipulator
 
-This project uses image processing techniques to detect game movements and once detected, the game logic uses a min-max algorithm that decides the best response for the robotic arm in order to win the game.
-The robotic arm was designed on Solidworks and 3D printed.
-Communication between the game and the arm controller was done through serial communication.
+## Description
+This project combines image processing and game theory to enable a robotic arm to play Tic-Tac-Toe. Using Python and OpenCV, the system detects game moves in real-time. The game logic employs the Minimax algorithm to determine the optimal move. The robotic arm, designed in SolidWorks and 3D printed, is controlled via serial communication with an Arduino.
 
-Key aspeects:
-
-• Designed a robotic system that plays Tic-Tac-Toe, combining Python, OpenCV, and Arduino with the Minimax algorithm for real-time decision-making and embedded control.
+## Key aspects
+- Developed a robotic Tic-Tac-Toe player integrating Python, OpenCV, Arduino, and Minimax for intelligent real-time gameplay.
